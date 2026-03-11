@@ -1,0 +1,50 @@
+.icon_btn{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: auto;
+    
+
+    transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.icon > svg{
+    height: 28px !important;
+    width: 28px !important;
+    color: #fff;
+    z-index: 2;
+    margin-bottom: 3px;
+    margin-right: 5.5px;
+
+}
+
+.text{
+    position: absolute;
+    right: 40px;
+    color: #fff;
+    font-size: 20px;
+    white-space: nowrap;
+    opacity: 0;
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateX(10px);
+}
+
+.icon_btn:hover{
+    width: 130px;
+    padding-left: 16px !important;
+    background-color: #ffb400;
+}
+
+.icon_btn:hover .text{
+    opacity: 1;
+    transform: translate(0);
+}

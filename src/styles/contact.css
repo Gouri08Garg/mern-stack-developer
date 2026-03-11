@@ -1,0 +1,140 @@
+
+.contact-hero h1{
+    font-size: 56px;
+    font-weight: 900 !important;
+    color: #fff ;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    letter-spacing: 2px;
+}
+.bg-text{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%); */
+    transform: translateY(-50%);
+    color: rgba(251, 9, 9, 0.938);
+    z-index: 0;
+}
+/* src/components/Contact.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #0a0a0a;
+}
+
+/* Hero / Title */
+.contact-hero {
+  background: #0a0a0a;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Contact content container */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px 20px;
+  justify-content: center;
+}
+
+/* Info column */
+.contact-info {
+  max-width: 350px;
+}
+
+.contact-info h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.info-box {
+  margin-bottom: 15px;
+}
+
+.info-box h4 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info-box p {
+  margin: 0;
+  color: #aaa;
+}
+
+/* Form styling */
+.contact-form-wrapper {
+  max-width: 450px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: #111;
+  border: 1px solid #333;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #f9b233;
+}
+
+.contact-form button {
+  background: #f9b233;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a0a0a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #e0a72e;
+}
+
+.status {
+  margin-top: 10px;
+  color: #80ff80;
+}
+
+/* Map section */
+.map-section {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.map-placeholder {
+  height: 250px;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  font-size: 18px;
+}
+

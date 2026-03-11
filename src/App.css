@@ -1,0 +1,19 @@
+/* src/App.css */
+
+body , .bg_dark_color {
+  font-family: "Poppins", sans-serif;
+  background-color: #000 !important;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.03);
+  transition: 0.2s ease-in-out;
+}
+
+.fs-7{
+  font-size: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.border_Style{
+  border: 1px solid rgba(211, 211, 211, 0.243) !important;
+}
