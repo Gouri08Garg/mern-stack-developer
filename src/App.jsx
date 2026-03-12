@@ -8,7 +8,8 @@ import About from "./component/About";
 import Contact from "./component/Contact";
 import AddProducts from "./component/AddProducts";
 import Blogs from "./component/Blogs";
-import EditForm from "./component/editForm";
+import EditForm from "./component/EditForms";
+
 
 
 export const App = () => {
